@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1000</width>
     <height>600</height>
    </rect>
   </property>
@@ -18,13 +18,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>800</width>
+    <width>1000</width>
     <height>600</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>800</width>
+    <width>1000</width>
     <height>600</height>
    </size>
   </property>
@@ -40,7 +40,7 @@
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>590</x>
       <y>10</y>
       <width>20</width>
       <height>540</height>
@@ -75,7 +75,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>600</x>
       <y>0</y>
       <width>400</width>
       <height>60</height>
@@ -99,7 +99,7 @@
      <rect>
       <x>20</x>
       <y>60</y>
-      <width>360</width>
+      <width>560</width>
       <height>360</height>
      </rect>
     </property>
@@ -111,24 +111,27 @@
     </property>
     <property name="minimumSize">
      <size>
-      <width>360</width>
+      <width>560</width>
       <height>360</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
-      <width>360</width>
+      <width>560</width>
       <height>360</height>
      </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
     </property>
     <property name="horizontalScrollBarPolicy">
-     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+     <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
     </property>
     <property name="sizeAdjustPolicy">
-     <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustIgnored</enum>
+     <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
     </property>
     <column>
      <property name="text">
@@ -193,7 +196,7 @@
    <widget class="QLineEdit" name="sync_src_lineedit">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>90</y>
       <width>360</width>
       <height>30</height>
@@ -220,9 +223,9 @@
    <widget class="QLineEdit" name="sync_dst_lineedit">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>130</y>
-      <width>360</width>
+      <width>291</width>
       <height>30</height>
      </rect>
     </property>
@@ -247,7 +250,7 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>160</y>
       <width>360</width>
       <height>20</height>
@@ -260,7 +263,7 @@
    <widget class="QCheckBox" name="notification_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>230</y>
       <width>120</width>
       <height>20</height>
@@ -273,7 +276,7 @@
    <widget class="QCheckBox" name="mon_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>330</y>
       <width>110</width>
       <height>20</height>
@@ -286,7 +289,7 @@
    <widget class="QCheckBox" name="twoway_cb">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>760</x>
       <y>230</y>
       <width>110</width>
       <height>20</height>
@@ -299,7 +302,7 @@
    <widget class="QCheckBox" name="tue_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>360</y>
       <width>110</width>
       <height>20</height>
@@ -309,23 +312,10 @@
      <string>tuesday</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="compression_cb">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>230</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>compress</string>
-    </property>
-   </widget>
    <widget class="Line" name="line_3">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>260</y>
       <width>360</width>
       <height>20</height>
@@ -338,7 +328,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>600</x>
       <y>170</y>
       <width>400</width>
       <height>60</height>
@@ -360,7 +350,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>600</x>
       <y>270</y>
       <width>400</width>
       <height>60</height>
@@ -382,7 +372,7 @@
    <widget class="QCheckBox" name="wed_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>390</y>
       <width>110</width>
       <height>20</height>
@@ -395,7 +385,7 @@
    <widget class="QCheckBox" name="thu_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>420</y>
       <width>110</width>
       <height>20</height>
@@ -408,7 +398,7 @@
    <widget class="QCheckBox" name="fri_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>450</y>
       <width>110</width>
       <height>20</height>
@@ -421,7 +411,7 @@
    <widget class="QCheckBox" name="sat_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>480</y>
       <width>110</width>
       <height>20</height>
@@ -434,7 +424,7 @@
    <widget class="QCheckBox" name="sun_cb">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>510</y>
       <width>110</width>
       <height>20</height>
@@ -447,7 +437,7 @@
    <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>790</x>
       <y>330</y>
       <width>20</width>
       <height>211</height>
@@ -460,7 +450,7 @@
    <widget class="QTimeEdit" name="sync_timeedit">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>850</x>
       <y>330</y>
       <width>100</width>
       <height>30</height>
@@ -480,10 +470,10 @@
      </time>
     </property>
    </widget>
-   <widget class="QPushButton" name="sync_add_btn">
+   <widget class="QPushButton" name="sync_save_btn">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>850</x>
       <y>510</y>
       <width>100</width>
       <height>30</height>
@@ -496,7 +486,7 @@
    <widget class="QLineEdit" name="sync_name_lineedit">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>620</x>
       <y>50</y>
       <width>360</width>
       <height>30</height>
@@ -549,7 +539,7 @@
    <widget class="QCheckBox" name="enabled_cb">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>850</x>
       <y>470</y>
       <width>110</width>
       <height>20</height>
@@ -562,13 +552,26 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="sync_test_btn">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>130</y>
+      <width>61</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>test</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1000</width>
      <height>28</height>
     </rect>
    </property>
